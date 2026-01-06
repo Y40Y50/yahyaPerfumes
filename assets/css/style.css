@@ -1,0 +1,132 @@
+/*google fonts*/
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Macondo&display=swap');
+/*css variables*/
+:root {
+    --primary-font : 'Inter', sans-serif;
+    --secondary-font : 'Macondo', cursive;
+    --primary-color : #180202;
+    --secondary-color : #aa95818b;
+    --highlight-color:#416a8e;
+    --light-highlight-color:#7a9fc2;
+}
+/*global styles*/
+body {
+    font-family: var(--primary-font);
+    padding-top: 60px;
+    margin: 0;
+}
+h1, h2, h3 {
+    font-family: var(--secondary-font);
+    color: white;
+}
+h2 {
+    color: var(--primary-color);
+}
+/*navbar styles*/
+#navbar {
+    background-color:var(--primary-color);
+    color: white;
+}
+#navbar .logo {
+    font-size: 30px;
+    color: white;
+}
+#navbar a {
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+#navbar a:hover {
+    color: var(--secondary-color);
+}
+#navbar .nav-link {
+    color: white;
+    font-weight: 500;
+}
+
+
+#navbar .nav-link:hover,
+#navbar .nav-link.active {
+    color: var(--secondary-color);
+}
+#navbar .navbar-nav .nav-link {
+    margin-left: 40px; /* add spacing between items */
+}
+
+/*contact syles*/
+#contact {
+    background-color: var(--primary-color);
+    color: white;
+}
+
+.table-transparent th,
+.table-transparent td {
+    background-color: transparent;  /* remove cell backgrounds */
+    border-color: white;            /* optional: change borders color */
+    color: white;
+}
+.social-links a {
+    color: white;
+    font-size: 12px;
+}
+.social-links a:hover {
+    color:var(--secondary-color);
+    font-size: 12px;
+}
+
+/* <!-- Services section --> */
+ 
+/**header section**/
+#header {
+    margin: 0   ;
+}
+.big-background {
+    width: 100%;          /* optional: full screen height */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 20px 20px;
+}
+
+
+
+@media (max-width: 991px) {
+    /* Make the collapse container full width */
+    #navbarNavAltMarkup {
+        width: 100vw; /* full viewport width */
+        position: absolute; /* so it stretches from left to right */
+        left: 0;
+        top: 100%; /* just below navbar */
+        background-color: var(--primary-color);
+    }
+
+    /* Links fill the container */
+    #navbar .navbar-nav .nav-link {
+        display: block;
+        width: 100%;
+        text-align: center;
+        padding: 10px 15px;
+        border-radius: 0; /* optional: remove rounded corners for full width */
+        box-sizing: border-box;
+        transition: background-color 0.3s;
+        margin-left: 0;
+    }
+
+    #navbar .navbar-nav .nav-link:hover {
+        background-color: var(--secondary-color);
+        color: white;
+    }
+
+    /* Remove container padding inside collapse */
+    #navbar .navbar-collapse .navbar-nav {
+        margin: 0;
+        padding: 0;
+        width: 100%;
+    }
+    #best-seller .card-body {
+        min-height: auto;
+    }
+}
+
