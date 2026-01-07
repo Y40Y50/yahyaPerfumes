@@ -41,6 +41,13 @@ h2 {
 #navbar a:hover {
     color: var(--secondary-color);
 }
+#navbar i {
+    font-size: 20px;
+    color: white;
+}
+#navbar i:hover {
+    color: var(--secondary-color);
+}
 #navbar .nav-link {
     color: white;
     font-weight: 500;
@@ -89,8 +96,25 @@ h2 {
     background-repeat: no-repeat;
     padding: 20px 20px;
 }
+.card-img-top {
+    height: 300px;          /* same height for all images */
+    width: 100%;
+    object-fit: contain;    /* keeps full image, no distortion */
+}
 
+.card-body {
+    display: flex;
+    flex-direction: column;
+}
 
+.card-body .btn {
+    margin-top: auto; /* pushes button to bottom */
+}
+/* <!-- Cart section --> */
+#best-seller .fa-solid {
+    font-size: 30px;
+     margin-left: 60px;
+}
 
 @media (max-width: 991px) {
     /* Make the collapse container full width */
