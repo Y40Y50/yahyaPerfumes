@@ -15,6 +15,7 @@
         integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
+
 <body class="d-flex flex-column min-vh-100">
     <!-- Navbar -->
     <nav id="navbar" class="navbar navbar-expand-lg fixed-top" data-bs-theme="dark">
@@ -41,11 +42,57 @@
         </div>
     </nav>
     <main>
-        <div>
-            <p>Hello... I have an inquiry about</p>
-        </div>
+        <section id="booking-form" class="container section mt-3">
+            <div class="row justify-content-center">
+                <div class="col-12 col-md-8">
+                    <div>
+                        <h2>Hello... I have an inquiry about</h2>
+                    </div>
+
+                    <form action="success.html" method="get">
+                        <div class="row">
+                            <div class="col-12 col-lg-4 mb-3">
+                                <label for="name" class="form-label">Name</label>
+                                <input class="form-control" id="name" name="name" type="text" required>
+                            </div>
+                            <div class="col-12 col-lg-4 mb-3">
+                                <label for="email" class="form-label">Email</label>
+                                <input class="form-control" id="email" name="email" type="email" required>
+                            </div>
+                            <div class="col-12 col-lg-4 mb-3">
+                                <label for="phone" class="form-label">Phone number</label>
+                                <input class="form-control" id="phone" name="phone" type="number" required>
+                            </div>
+                            <div class="col-12 col-lg-6 mb-3">
+                                <label for="event-type" class="form-label">Event type</label>
+                                <select id="event-type" class="form-select" name="event-type" required>
+                                    <option value="" selected>Select</option>
+                                    <option value="regular-play">Mens perfumes</option>
+                                    <option value="dnd">womens perfumes</option>
+                                    <option value="retro-night">Unisex perfumes</option>
+                                    <option value="tournament">complaint</option>
+                                </select>
+                            </div>
+                            <div class="col-12 mb-3">
+                                <label for="message" class="form-label">Message</label>
+                                <textarea class="form-control" rows="6" id="message" name="message" type="text"
+                                    required></textarea>
+                            </div>
+                        </div>
+                        <div class="mb-3">
+                            <form action="success.html" method="get">
+                            <button type="submit" class="btn btn-dark">Submit</button>
+                        </form>
+                        </div>
+                        
+
+
+                    </form>
+                </div>
+            </div>
+        </section>
     </main>
-        <!-- Footer -->
+    <!-- Footer -->
     <!-- mt-auto add to push footer to the bottom of the page-->
     <footer id="contact" class="mt-auto">
         <div class="container">
@@ -114,7 +161,7 @@
     </footer>
     <script src="https://kit.fontawesome.com/9922ec3484.js" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
-    crossorigin="anonymous"></script>
+        crossorigin="anonymous"></script>
 
 </body>
 
