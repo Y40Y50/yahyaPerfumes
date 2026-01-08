@@ -93,7 +93,7 @@ All custom HTML and CSS code was written by the developer unless otherwise state
 The website is deployed using **GitHub Pages**.
 
 🔗 **Live Site:**  
-(Add your GitHub Pages URL here)
+https://github.com/Y40Y50/scaling-fiesta.git
 
 ---
 
