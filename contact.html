@@ -9,7 +9,7 @@
 
     <title>Yahya | Contact</title>
     <!-- add logo with title -->
-    <link rel="icon" type="image/x-icon" href="assets/images/logo website.png">
+    <link rel="icon" type="image/x-icon" href="assets/images/logo-website.png">
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
@@ -42,52 +42,49 @@
         </div>
     </nav>
     <main>
-        <section id="booking-form" class="container section mt-3">
-            <div class="row justify-content-center">
-                <div class="col-12 col-md-8">
-                    <div>
-                        <h2>Hello... I have an inquiry about</h2>
-                    </div>
+        <section id="booking-form" class="container-fluid p-0 section mt-5">
+            <div class="col-12 text-center">
+                <h2 class="display-6 py-3 mb-5">Hello... I have an inquiry about</h2>
+            </div>
 
-                    <form action="success.html" method="get">
-                        <div class="row">
-                            <div class="col-12 col-lg-4 mb-3">
-                                <label for="name" class="form-label">Name</label>
-                                <input class="form-control" id="name" name="name" type="text" required>
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-12 col-md-10 col-lg-8">
+                        <form action="success.html" method="get">
+                            <div class="row">
+                                <div class="col-12 col-lg-4 mb-3">
+                                    <label for="name" class="form-label">Name</label>
+                                    <input class="form-control" id="name" name="name" type="text" required>
+                                </div>
+                                <div class="col-12 col-lg-4 mb-3">
+                                    <label for="email" class="form-label">Email</label>
+                                    <input class="form-control" id="email" name="email" type="email" required>
+                                </div>
+                                <div class="col-12 col-lg-4 mb-3">
+                                    <label for="phone" class="form-label">Phone number</label>
+                                    <input class="form-control" id="phone" name="phone" type="tel" required>
+                                </div>
+                                <div class="col-12 mb-3">
+                                    <label for="event-type" class="form-label">Inquiry Type</label>
+                                    <select id="event-type" class="form-select" name="event-type" required>
+                                        <option value="" selected disabled>Select an option</option>
+                                        <option value="mens">Men's Perfumes</option>
+                                        <option value="womens">Women's Perfumes</option>
+                                        <option value="unisex">Unisex Perfumes</option>
+                                        <option value="complaint">Complaint/Feedback</option>
+                                    </select>
+                                </div>
+                                <div class="col-12 mb-4">
+                                    <label for="message" class="form-label">Message</label>
+                                    <textarea class="form-control" rows="6" id="message" name="message"
+                                        required></textarea>
+                                </div>
                             </div>
-                            <div class="col-12 col-lg-4 mb-3">
-                                <label for="email" class="form-label">Email</label>
-                                <input class="form-control" id="email" name="email" type="email" required>
+                            <div class="mb-5 text-center">
+                                <button type="submit" class="btn btn-dark btn-lg px-5">Submit</button>
                             </div>
-                            <div class="col-12 col-lg-4 mb-3">
-                                <label for="phone" class="form-label">Phone number</label>
-                                <input class="form-control" id="phone" name="phone" type="number" required>
-                            </div>
-                            <div class="col-12 col-lg-6 mb-3">
-                                <label for="event-type" class="form-label">Event type</label>
-                                <select id="event-type" class="form-select" name="event-type" required>
-                                    <option value="" selected>Select</option>
-                                    <option value="regular-play">Mens perfumes</option>
-                                    <option value="dnd">womens perfumes</option>
-                                    <option value="retro-night">Unisex perfumes</option>
-                                    <option value="tournament">complaint</option>
-                                </select>
-                            </div>
-                            <div class="col-12 mb-3">
-                                <label for="message" class="form-label">Message</label>
-                                <textarea class="form-control" rows="6" id="message" name="message" type="text"
-                                    required></textarea>
-                            </div>
-                        </div>
-                        <div class="mb-3">
-                            <form action="success.html" method="get">
-                            <button type="submit" class="btn btn-dark">Submit</button>
                         </form>
-                        </div>
-                        
-
-
-                    </form>
+                    </div>
                 </div>
             </div>
         </section>

@@ -1,7 +1,18 @@
+/* 
+   1. Typography: Google Fonts (Inter & Macondo)
+      Source: https://fonts.google.com/
+   2. Icons: FontAwesome 
+      Source: https://fontawesome.com/
+   3. Layout Structure: Inspired by Bootstrap 5 Grid System
+      Source: https://getbootstrap.com/docs/5.0/layout/grid/
+   4. Media Query Logic: Based on standard Responsive Web Design patterns
+      Source: MDN Web Docs (Responsive Design)
+   ============================================================ */
 /*google fonts*/
 
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Macondo&display=swap');
-/*css variables*/
+
+/*  Variables & Global Style */
 :root {
     --primary-font : 'Inter', sans-serif;
     --secondary-font : 'Macondo', cursive;
@@ -21,9 +32,12 @@ h1, h2, h3 {
     color: white;
 }
 h2 {
-    color: var(--primary-color);
+    color: white;
+    background-color: var(--primary-color); /* This might only color the text block */
+    margin: 0;
 }
 /*navbar styles*/
+/*CUSTOM COMPONENT: Navigation Styling*/
 #navbar {
     background-color:var(--primary-color);
     color: white;
@@ -71,7 +85,7 @@ h2 {
 .table-transparent th,
 .table-transparent td {
     background-color: transparent;  /* remove cell backgrounds */
-    border-color: white;            /* optional: change borders color */
+    border-color: white;            
     color: white;
 }
 .social-links a {
@@ -83,21 +97,20 @@ h2 {
     font-size: 12px;
 }
 
-/* <!-- Services section --> */
- 
 /**header section**/
 #header {
-    margin: 0   ;
+    margin: 0  ;
+    margin-bottom: 10px;
 }
 .big-background {
-    width: 100%;          /* optional: full screen height */
+    width: 100%;          
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    padding: 20px 20px;
+    margin-bottom: 20px;
 }
 .card-img-top {
-    height: 300px;          /* same height for all images */
+    height: 300px;          
     width: 100%;
     object-fit: contain;    /* keeps full image, no distortion */
 }
@@ -110,21 +123,41 @@ h2 {
 .card-body .btn {
     margin-top: auto; /* pushes button to bottom */
 }
+
 /* <!-- Cart section --> */
 #best-seller .fa-solid {
     font-size: 30px;
      margin-left: 60px;
 }
 
+/* Ensure the sections stretch fully */
+#best-seller, #trending {
+    width: 100%;
+    padding-left: 0;
+    padding-right: 0;
+    overflow-x: hidden; /* Prevents accidental side-scrolling */
+}
 
+/* Make the section headings span the full width */
+#best-seller h2, #trending h2 {
+    width: 100%;
+    margin: 0;
+    padding: 20px 0; /* Adds some space inside the dark bar */
+    text-align: center;
+}
 
+.section .row {
+    padding: 0 15px; 
+}
+
+/* Mobile Responsiveness Adapted from Bootstrap patterns */
 @media (max-width: 991px) {
     /* Make the collapse container full width */
     #navbarNavAltMarkup {
-        width: 100vw; /* full viewport width */
-        position: absolute; /* so it stretches from left to right */
+        width: 100vw; 
+        position: absolute; 
         left: 0;
-        top: 100%; /* just below navbar */
+        top: 100%; 
         background-color: var(--primary-color);
     }
 
@@ -134,7 +167,7 @@ h2 {
         width: 100%;
         text-align: center;
         padding: 10px 15px;
-        border-radius: 0; /* optional: remove rounded corners for full width */
+        border-radius: 0; 
         box-sizing: border-box;
         transition: background-color 0.3s;
         margin-left: 0;
@@ -145,7 +178,6 @@ h2 {
         color: white;
     }
 
-    /* Remove container padding inside collapse */
     #navbar .navbar-collapse .navbar-nav {
         margin: 0;
         padding: 0;
@@ -153,6 +185,15 @@ h2 {
     }
     #best-seller .card-body {
         min-height: auto;
+    }
+    .card {
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 90%; 
+    }
+    
+    h2.display-6 {
+        font-size: 1.5rem;
     }
 }
 

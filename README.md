@@ -33,6 +33,16 @@ The website presents information clearly and attractively to meet both user and 
 - Customers looking for gifts or personal fragrances
 - Users browsing on mobile, tablet, and desktop devices
 
+## User Stories
+
+| ID | User Story |
+|----|------------|
+| US1 | As a customer I want to browse perfumes so I can choose one |
+| US2 | As a customer I want clear navigation so I can find products easily |
+| US3 | As a user I want mobile responsive design so I can use my phone |
+| US4 | As a customer I want contact information so I can ask questions |
+| US5 | As a user I want product prices visible so I can compare |
+
 ### UX Design Decisions
 - Simple and consistent navigation across all pages
 - Clean layout with clear sections and headings
@@ -42,69 +52,248 @@ The website presents information clearly and attractively to meet both user and 
 
 Wireframes and layout planning were used to structure content logically before development.
 
+## Design Process
+
+Before development the structure was planned to ensure good UX design.
+
+### Home Page Structure
+
+- Navigation bar
+- Hero image
+- Featured products
+- Contact footer
+
+### Products Page Structure
+
+- Product card grid
+- Images
+- Prices
+- Add to cart buttons
+
+### Contact Page Structure
+
+- Contact form
+- Required input fields
+- Submit button
+- Contact information
+
+### UX Design Decisions
+
+Design choices included:
+
+- Simple navigation
+- Consistent layout
+- Luxury colour theme
+- Clear typography
+- Responsive grid layout
+- Accessibility considerations
+
 ---
 
 ## Features
 
-- Responsive navigation menu
-- Home page with brand introduction and featured products
-- Products page displaying static perfume information
-- Contact page with store details and a contact form
-- Consistent footer with contact information
-- Fully responsive layout using Bootstrap grid system
+### Existing Features
+
+- Responsive navigation bar
+- Product cards
+- Contact form
+- Responsive Bootstrap layout
+- Footer contact information
+- Social media links
+
+### Future Features
+
+Possible improvements:
+
+- JavaScript shopping cart
+- Product filtering
+- Payment system
+- Search function
+- Database integration
 
 ---
 
 ## Technologies Used
 
-- **HTML5** – for structure and semantic markup
-- **CSS3** – for styling and layout
-- **Bootstrap 5** – for responsive design and grid system
-- **Google Fonts** – for typography
-- **Git & GitHub** – for version control
-- **GitHub Pages** – for deployment
+### Languages
+
+- HTML5
+- CSS3
+
+### Frameworks
+
+- Bootstrap 5
+
+### Tools
+
+- Git
+- GitHub
+- GitHub Pages
+- Google Fonts
+- Font Awesome
 
 ---
 
 ## Information Architecture
 
-The website consists of **three main pages**:
+The site contains 4 pages:
 
-- **Home** – Brand introduction and highlights
-- **Products** – Static presentation of perfume collections
-- **Contact** – Contact information and enquiry form
+- Home (index.html)
+- Products (products.html)
+- Contact (contact.html)
+- Cart (cart.html)
+- Success page
 
-Navigation is consistent across all pages and allows users to move freely without using the browser back button.
+Navigation is consistent across all pages.
 
 ---
 
-## Attribution
+## Testing
 
-- Bootstrap framework used from: https://getbootstrap.com/
-- Google Fonts imported from: https://fonts.google.com/
-- Icons provided by Font Awesome: https://fontawesome.com/
+### Manual Testing
 
-All custom HTML and CSS code was written by the developer unless otherwise stated.
+| Page | Test | Result |
+|------|------|--------|
+| Home | Navigation links | PASS |
+| Home | Images display | PASS |
+| Home | Responsive layout | PASS |
+| Products | Product cards display | PASS |
+| Products | Add to cart links | PASS |
+| Contact | Form validation | PASS |
+| Contact | Required fields | PASS |
+| Contact | Submit works | PASS |
+| All | Mobile responsive | PASS |
+
+---
+
+## Bugs Found and Fixed
+
+| Bug | Problem | Fix |
+|-----|---------|-----|
+| Navbar overlap | Header covered content | Added body padding |
+| Card alignment | Buttons uneven | Used flexbox |
+| Form error | Form inside form | Removed duplicate form |
+
+---
+
+## Validation
+
+### HTML Validation
+
+HTML was tested using W3C validator.
+
+Results:
+
+- No major errors
+- Semantic structure correct
+- Accessibility structure good
+
+### CSS Validation
+
+CSS tested using Jigsaw validator.
+
+Results:
+
+- No major errors
+- CSS variables working correctly
 
 ---
 
 ## Deployment
 
-The website is deployed using **GitHub Pages**.
+The project was deployed using GitHub Pages.
 
-🔗 **Live Site:**  
-https://github.com/Y40Y50/scaling-fiesta.git
+### Steps:
+
+1 Create repository on GitHub
+
+2 Upload project files
+
+3 Commit changes
+
+4 Enable GitHub Pages
+
+5 Deploy from main branch
+
+Project link:
+
+https://github.com/Y40Y50/scaling-fiesta
 
 ---
 
 ## Version Control
 
-This project was developed using Git and hosted on GitHub.  
-Commits were made regularly to document progress and changes.
+Git was used throughout development.
+
+Commits were made to track:
+
+- Layout changes
+- Styling improvements
+- Bug fixes
+- Feature additions
 
 ---
 
 ## Credits
 
-All images used are for educational purposes only.  
-This project was created as part of a **User-Centric Frontend Development** course assessment.
+### Resources Used
+
+Bootstrap:
+https://getbootstrap.com/
+
+Google Fonts:
+https://fonts.google.com/
+
+Font Awesome:
+https://fontawesome.com/
+
+### Images
+
+Images used for educational purposes only.
+
+---
+
+## Development Process
+
+Development followed this order:
+
+1 Planning structure
+2 Creating HTML pages
+3 Adding CSS styling
+4 Adding Bootstrap layout
+5 Making responsive design
+6 Testing pages
+7 Fixing bugs
+8 Deployment
+
+---
+
+## Testing Lifecycle
+
+Testing included:
+
+- Manual navigation testing
+- Responsive testing
+- Form validation testing
+- Link testing
+- Layout testing
+
+---
+
+## Author
+
+Developed by Yahya Ahmed  
+Frontend Development Student Project
+
+---
+
+## Final Notes
+
+This project demonstrates:
+
+- HTML structure
+- CSS styling
+- Responsive design
+- UX design principles
+- Testing process
+- Version control
