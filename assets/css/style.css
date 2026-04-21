@@ -8,8 +8,8 @@
    4. Media Query Logic: Based on standard Responsive Web Design patterns
       Source: MDN Web Docs (Responsive Design)
    ============================================================ */
-/*google fonts*/
-
+/* Google Fonts Import (External)
+   Source: https://fonts.google.com/ */
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Macondo&display=swap');
 
 /*  Variables & Global Style */
@@ -17,7 +17,7 @@
     --primary-font : 'Inter', sans-serif;
     --secondary-font : 'Macondo', cursive;
     --primary-color : #180202;
-    --secondary-color : #aa95818b;
+    --secondary-color : #c2a385;
     --highlight-color:#416a8e;
     --light-highlight-color:#7a9fc2;
 }
@@ -148,6 +148,10 @@ h2 {
 
 .section .row {
     padding: 0 15px; 
+}
+a:focus, button:focus {
+    outline: 3px solid #7a9fc2;
+    outline-offset: 2px;
 }
 
 /* Mobile Responsiveness Adapted from Bootstrap patterns */

@@ -51,6 +51,11 @@ The website presents information clearly and attractively to meet both user and 
 - Responsive design to ensure usability on all screen sizes
 
 Wireframes and layout planning were used to structure content logically before development.
+Wireframes of desktop:
+https://github.com/Y40Y50/yahyaPerfumes/blob/3b9db33785234be707633b5162b5b1e622a3b361/assets/wireframe%20desktop%20layout.pdf
+
+Wireframes of Mobile Mode:
+https://github.com/Y40Y50/yahyaPerfumes/blob/3b9db33785234be707633b5162b5b1e622a3b361/assets/wireframe%20Mobile%20layout%20copy.pdf
 
 ## Design Process
 
@@ -175,15 +180,41 @@ Navigation is consistent across all pages.
 | Form error | Form inside form | Removed duplicate form |
 
 ---
+## Evidence of Design Implementation
+
+## Navigation Design
+-  A responsive navigation bar is implemented using Bootstrap
+-  Includes links to all main pages (Home, Products, Contact, Cart)
+-  Mobile-friendly collapsible menu improves usability
+
+## Page Layout Design
+* Semantic HTML structure used:
+    - <header> for hero section
+    - <main> for content
+    - <section> for grouped information
+    - <footer> for contact details
+* Grid layout used for product display
+
+## Accessibility Design
+    - All images include descriptive alt text
+    - High contrast colour scheme used
+    - Responsive design supports all devices
+    - Semantic elements improve screen reader support
+    - Navigation accessible via keyboard
+
+## UX Design Implementation
+    - Clear visual hierarchy using headings
+    - Content prioritised (hero → products → contact)
+    - Consistent layout across pages
+    - Simple and intuitive navigation
 
 ## Validation
 
 ### HTML Validation
 
 HTML was tested using W3C validator.
-
+https://github.com/Y40Y50/yahyaPerfumes/blob/3b9db33785234be707633b5162b5b1e622a3b361/assets/images/Screenshot%202026-03-31%20154726.png
 Results:
-
 - No major errors
 - Semantic structure correct
 - Accessibility structure good
@@ -191,7 +222,7 @@ Results:
 ### CSS Validation
 
 CSS tested using Jigsaw validator.
-
+https://github.com/Y40Y50/yahyaPerfumes/blob/3b9db33785234be707633b5162b5b1e622a3b361/assets/images/css%20validation.png
 Results:
 
 - No major errors
@@ -206,17 +237,11 @@ The project was deployed using GitHub Pages.
 ### Steps:
 
 1 Create repository on GitHub
-
 2 Upload project files
-
 3 Commit changes
-
 4 Enable GitHub Pages
-
 5 Deploy from main branch
-
 Project link:
-
 https://github.com/Y40Y50/scaling-fiesta
 
 ---
@@ -240,10 +265,8 @@ Commits were made to track:
 
 Bootstrap:
 https://getbootstrap.com/
-
 Google Fonts:
 https://fonts.google.com/
-
 Font Awesome:
 https://fontawesome.com/
 
@@ -252,6 +275,41 @@ https://fontawesome.com/
 Images used for educational purposes only.
 
 ---
+
+## User Stories with Evidence
+## Browse perfumes
+    As a customer I want to browse perfumes so I can choose one
+
+## Evidence:
+    Products displayed using card layout
+    Images, descriptions, and prices clearly visible
+
+## Clear navigation
+    As a customer I want clear navigation so I can find products easily
+
+## Evidence:
+    Navigation bar visible on all pages
+    Links to Home, Products, Contact, Cart
+
+## Mobile responsive design
+    As a user I want mobile responsive design so I can use my phone
+
+## Evidence:
+    Responsive Bootstrap layout
+    Collapsible mobile menu
+
+## Contact information
+    As a customer I want contact information so I can ask questions
+
+## Evidence:
+    Address, phone, email clearly displayed
+    Social media links included
+
+## View product prices
+    As a user I want product prices visible so I can compare
+
+## Evidence:
+    Prices clearly shown on each product card
 
 ## Development Process
 
@@ -297,3 +355,6 @@ This project demonstrates:
 - UX design principles
 - Testing process
 - Version control
+
+Screenshots Linked to User Stories:
+
