@@ -356,5 +356,15 @@ This project demonstrates:
 - Testing process
 - Version control
 
-Screenshots Linked to User Stories:
+## Screenshots Linked to User Stories:
+## Contact Page : 
+https://github.com/Y40Y50/yahyaPerfumes/blob/0bf13bc258f5a846d2a35129c431bc9ac58726d4/assets/docs/Contact-page.png
 
+## Prudects Page:
+https://github.com/Y40Y50/yahyaPerfumes/blob/0bf13bc258f5a846d2a35129c431bc9ac58726d4/assets/docs/Products-page.png
+
+## Home Page:
+https://github.com/Y40Y50/yahyaPerfumes/blob/0bf13bc258f5a846d2a35129c431bc9ac58726d4/assets/docs/home-page.png
+
+## Mobile View : 
+https://github.com/Y40Y50/yahyaPerfumes/blob/0bf13bc258f5a846d2a35129c431bc9ac58726d4/assets/docs/mobile-view.png
