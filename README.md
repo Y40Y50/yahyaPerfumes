@@ -219,14 +219,19 @@ Results:
 - Semantic structure correct
 - Accessibility structure good
 
+## Screenshot:
+[HTML Validation](assets/images/html-validation.png)
+
 ### CSS Validation
 
 CSS tested using Jigsaw validator.
-https://github.com/Y40Y50/yahyaPerfumes/blob/3b9db33785234be707633b5162b5b1e622a3b361/assets/images/css%20validation.png
+https://github.com/Y40Y50/yahyaPerfumes/blob/3b9db33785234be707##633b5162b5b1e622a3b361/assets/images/css%20validation.png
 Results:
 
 - No major errors
 - CSS variables working correctly
+## Screenshot:
+[HTML Validation](assets/images/css-validation.png)
 
 ---
 
@@ -321,7 +326,7 @@ Images used for educational purposes only.
 
 ## Evidence:
     Prices clearly shown on each product card
-    
+
 ## Screenshot:
 [Products Page](assets/docs/Products-page.png)
 
