@@ -249,6 +249,9 @@ The project was deployed using GitHub Pages.
 Project link:
 https://github.com/Y40Y50/scaling-fiesta
 
+The site is deployed via GitHub Pages. Live Link: https://y40y50.github.io/yahyaPerfumes/
+
+
 ---
 
 ## Version Control
