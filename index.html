@@ -18,6 +18,7 @@
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <a href="#main" class="visually-hidden-focusable">Skip to main content</a>
+
 <body class="d-flex flex-column min-vh-100">
     <!-- Navbar -->
     <nav id="navbar" class="navbar navbar-expand-lg fixed-top" data-bs-theme="dark">
@@ -47,26 +48,44 @@
     </nav>
     <!-- header with carousel -->
     <header id="header" class="container-fluid p-0">
-    <div class="hero-wrapper">
-        <img class="big-background" src="assets/images/heroimage.webp" alt="The Most trending Perfume">
-        <div class="hero-text-container text-center">
-            <h2 class="display-3 py-4">Yahya Perfume</h2>
-            <div class="container">
-                <p class="lead display-6 sub-heading-color">Find your new favourite fragrance</p>
-                <p class="my-4">We have good tradition - novelties very quickly become bestsellers and replenish collections of favourite fragrances</p>
+        <div class="hero-wrapper">
+            <img class="big-background" src="assets/images/heroimage.webp" alt="The Most trending Perfume">
+            <div class="hero-text-container text-center">
+                <button class="btn btn-outline-light mt-3" data-bs-toggle="modal" data-bs-target="#videoModal">
+                    ▶ Our Story
+                </button>
+                <h2 class="display-3 py-4">Yahya Perfume</h2>
+                <div class="container">
+                    <p class="lead display-6 sub-heading-color">Find your new favourite fragrance</p>
+                    <p class="my-4">We have good tradition - novelties very quickly become bestsellers and replenish
+                        collections of favourite fragrances</p>
+
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- Video Modal -->
+    <div class="modal fade" id="videoModal" tabindex="-1">
+        <div class="modal-dialog modal-lg modal-dialog-centered">
+            <div class="modal-content bg-dark">
+                <div class="modal-body p-0">
+                    <video controls autoplay class="w-100">
+                        <source src="assets/videos/perfume-video.webm" type="video/webm">
+                        Your browser does not support the video tag.
+                    </video>
+                </div>
             </div>
         </div>
     </div>
-</header>
     <!-- Main content -->
     <main id="main">
         <!-- Best Seller section -->
         <section id="best-seller" class="container-fluid p-0 section">
             <div class="col-12 text-center mb-4">
-                    <h2 class="display-6 text-center py-3 mb-4">Best Seller</h2>
-                </div>
+                <h2 class="display-6 text-center py-3 mb-4">Best Seller</h2>
+            </div>
             <div class="row">
-                
+
                 <div class="col-12 col-md-6 col-xl-4 mb-4">
                     <div class="card h-100">
                         <img src="assets/images/1-for-her.webp" class="card-img-top" alt="Riwayah 100 ml">
@@ -81,7 +100,8 @@
 
                 <div class="col-12 col-md-6 col-xl-4 mb-4">
                     <div class="card h-100">
-                        <img src="assets/images/2-for-her.webp" class="card-img-top" alt="Makarem perfume bottle with floral scent notes">
+                        <img src="assets/images/2-for-her.webp" class="card-img-top"
+                            alt="Makarem perfume bottle with floral scent notes">
                         <div class="card-body">
                             <h3 class="card-title">Makarem</h3>
                             <p class="card-text">
@@ -110,10 +130,10 @@
         <!--tranding for her-->
         <section id="trending" class="container-fluid section p-0">
             <div class="col-12 text-center mb-4">
-                    <h2 class="display-6">Trending for her</h2>
-                </div>
+                <h2 class="display-6">Trending for her</h2>
+            </div>
             <div class="row">
-                
+
                 <div class="col-12 col-md-6 col-xl-4 mb-4">
                     <div class="card h-100">
                         <img src="assets/images/Diwan.webp" class="card-img-top" alt="Riwayah 100 ml">
