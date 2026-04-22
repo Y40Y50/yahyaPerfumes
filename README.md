@@ -338,6 +338,15 @@ Images used for educational purposes only.
 ## Screenshot:
 [Products Page](assets/docs/Products-page.png)
 
+## View Video
+    As a user I want to a video for your story.
+
+## Evidence:
+    Video clearly shown our product.
+
+## Screenshot:
+[video page](assets/docs/ourstoryvideo.png)
+
 ## Development Process
 
 Development followed this order:
