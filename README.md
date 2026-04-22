@@ -277,12 +277,15 @@ Images used for educational purposes only.
 ---
 
 ## User Stories with Evidence
-## Browse perfumes
+## User1 Browse perfumes
     As a customer I want to browse perfumes so I can choose one
 
 ## Evidence:
     Products displayed using card layout
     Images, descriptions, and prices clearly visible
+
+## Screenshot:
+[Products Page](assets/docs/Products-page.png)
 
 ## Clear navigation
     As a customer I want clear navigation so I can find products easily
@@ -291,12 +294,17 @@ Images used for educational purposes only.
     Navigation bar visible on all pages
     Links to Home, Products, Contact, Cart
 
+## Screenshot:
+[Home Page](assets/docs/home-page.png)
+
 ## Mobile responsive design
     As a user I want mobile responsive design so I can use my phone
 
 ## Evidence:
     Responsive Bootstrap layout
     Collapsible mobile menu
+## Screenshot:
+[Mobile View](assets/docs/mobile-view.png)
 
 ## Contact information
     As a customer I want contact information so I can ask questions
@@ -305,11 +313,17 @@ Images used for educational purposes only.
     Address, phone, email clearly displayed
     Social media links included
 
+## Screenshot:
+[Contact Page](assets/docs/Contact-page.png)
+
 ## View product prices
     As a user I want product prices visible so I can compare
 
 ## Evidence:
     Prices clearly shown on each product card
+    
+## Screenshot:
+[Products Page](assets/docs/Products-page.png)
 
 ## Development Process
 
@@ -356,15 +370,3 @@ This project demonstrates:
 - Testing process
 - Version control
 
-## Screenshots Linked to User Stories:
-## Contact Page : 
-https://github.com/Y40Y50/yahyaPerfumes/blob/0bf13bc258f5a846d2a35129c431bc9ac58726d4/assets/docs/Contact-page.png
-
-## Prudects Page:
-https://github.com/Y40Y50/yahyaPerfumes/blob/0bf13bc258f5a846d2a35129c431bc9ac58726d4/assets/docs/Products-page.png
-
-## Home Page:
-https://github.com/Y40Y50/yahyaPerfumes/blob/0bf13bc258f5a846d2a35129c431bc9ac58726d4/assets/docs/home-page.png
-
-## Mobile View : 
-https://github.com/Y40Y50/yahyaPerfumes/blob/0bf13bc258f5a846d2a35129c431bc9ac58726d4/assets/docs/mobile-view.png
