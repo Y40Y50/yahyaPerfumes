@@ -51,9 +51,11 @@
         <div class="hero-wrapper">
             <img class="big-background" src="assets/images/heroimage.webp" alt="The Most trending Perfume">
             <div class="hero-text-container text-center">
-                <button class="btn btn-outline-light mt-3" data-bs-toggle="modal" data-bs-target="#videoModal">
-                    ▶ Our Story
-                </button>
+                <div class="text-end">
+                    <button class="btn story-btn mt-3" data-bs-toggle="modal" data-bs-target="#videoModal">
+                        ▶ Our Story
+                    </button>
+                </div>
                 <h2 class="display-3 py-4">Yahya Perfume</h2>
                 <div class="container">
                     <p class="lead display-6 sub-heading-color">Find your new favourite fragrance</p>
@@ -68,12 +70,15 @@
     <div class="modal fade" id="videoModal" tabindex="-1">
         <div class="modal-dialog modal-lg modal-dialog-centered">
             <div class="modal-content bg-dark">
-                <div class="modal-body p-0">
-                    <video controls autoplay class="w-100">
+                <button type="button" class="btn-close btn-close-white ms-auto m-2" data-bs-dismiss="modal"
+                    aria-label="Close"></button>
+
+                <div class="modal-body p-3">
+                    <video controls class="w-100" autoplay muted>
                         <source src="assets/videos/perfume-video.webm" type="video/webm">
-                        Your browser does not support the video tag.
                     </video>
                 </div>
+
             </div>
         </div>
     </div>

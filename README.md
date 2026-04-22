@@ -105,6 +105,7 @@ Design choices included:
 - Responsive Bootstrap layout
 - Footer contact information
 - Social media links
+- Hero section with background video and interactive "Our Story" modal.
 
 ### Future Features
 
@@ -178,6 +179,8 @@ Navigation is consistent across all pages.
 | Navbar overlap | Header covered content | Added body padding |
 | Card alignment | Buttons uneven | Used flexbox |
 | Form error | Form inside form | Removed duplicate form |
+| Video autoplay | Video not playing automatically | Added muted attribute and used supported format (webp) |
+| Modal usability | clear way to close video | Added visible close button using Bootstrap |
 
 ---
 ## Evidence of Design Implementation
@@ -207,6 +210,8 @@ Navigation is consistent across all pages.
     - Content prioritised (hero → products → contact)
     - Consistent layout across pages
     - Simple and intuitive navigation
+    - Interactive video feature added to improve user engagement
+    - "Our Story" button allows users to watch brand-related content.
 
 ## Validation
 
@@ -345,6 +350,7 @@ Development followed this order:
 6 Testing pages
 7 Fixing bugs
 8 Deployment
+9 Adding video modal feature.
 
 ---
 

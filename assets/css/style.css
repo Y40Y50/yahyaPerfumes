@@ -14,38 +14,47 @@
 
 /*  Variables & Global Style */
 :root {
-    --primary-font : 'Inter', sans-serif;
-    --secondary-font : 'Macondo', cursive;
-    --primary-color : #180202;
-    --secondary-color : #c2a385;
-    --highlight-color:#416a8e;
-    --light-highlight-color:#7a9fc2;
+    --primary-font: 'Inter', sans-serif;
+    --secondary-font: 'Macondo', cursive;
+    --primary-color: #180202;
+    --secondary-color: #c2a385;
+    --highlight-color: #416a8e;
+    --light-highlight-color: #7a9fc2;
 }
+
 /*global styles*/
 body {
     font-family: var(--primary-font);
     padding-top: 60px;
     margin: 0;
 }
-h1, h2, h3 {
+
+h1,
+h2,
+h3 {
     font-family: var(--secondary-font);
     color: white;
 }
+
 h2 {
     color: white;
-    background-color: var(--primary-color); /* This might only color the text block */
+    background-color: var(--primary-color);
+    /* This might only color the text block */
     margin: 0;
 }
+
 /*navbar styles*/
 /*CUSTOM COMPONENT: Navigation Styling*/
 #navbar {
-    background-color:var(--primary-color);
+    background-color: var(--primary-color);
     color: white;
 }
+
 #navbar .logo {
     font-size: 30px;
     color: white;
 }
+
 #navbar a {
     color: white;
     text-decoration: none;
@@ -55,13 +64,16 @@ h2 {
 #navbar a:hover {
     color: var(--secondary-color);
 }
+
 #navbar i {
     font-size: 20px;
     color: white;
 }
+
 #navbar i:hover {
     color: var(--secondary-color);
 }
+
 #navbar .nav-link {
     color: white;
     font-weight: 500;
@@ -72,8 +84,10 @@ h2 {
 #navbar .nav-link.active {
     color: var(--secondary-color);
 }
+
 #navbar .navbar-nav .nav-link {
-    margin-left: 40px; /* add spacing between items */
+    margin-left: 40px;
+    /* add spacing between items */
 }
 
 /*contact syles*/
@@ -84,40 +98,68 @@ h2 {
 
 .table-transparent th,
 .table-transparent td {
-    background-color: transparent;  /* remove cell backgrounds */
-    border-color: white;            
+    background-color: transparent;
+    /* remove cell backgrounds */
+    border-color: white;
     color: white;
 }
+
 .social-links a {
     color: white;
     font-size: 12px;
 }
+
 .social-links a:hover {
-    color:var(--secondary-color);
+    color: var(--secondary-color);
     font-size: 12px;
 }
 
+.story-btn {
+    background-color:var(--primary-color);
+    color: white;
+    border: none;
+    padding: 10px 25px;
+    border-radius: 30px;
+    transition: 0.3s;
+     margin-bottom: 20px;
+}
+
+.story-btn:hover {
+    background-color: var(--secondary-color);
+}
+.modal video {
+    border: 30px solid var(--primary-color);
+    border-radius: 12px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.6);
+}
+.modal-body {
+    background-color: var(--primary-color);
+}
 /**header section**/
 .hero-text-container button {
     font-size: 1.2rem;
     padding: 10px 25px;
     border-radius: 50px;
 }
+
 #header {
-    margin: 0  ;
+    margin: 0;
     margin-bottom: 10px;
 }
+
 .big-background {
-    width: 100%;          
+    width: 100%;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     margin-bottom: 20px;
 }
+
 .card-img-top {
-    height: 300px;          
+    height: 300px;
     width: 100%;
-    object-fit: contain;    /* keeps full image, no distortion */
+    object-fit: contain;
+    /* keeps full image, no distortion */
 }
 
 .card-body {
@@ -126,47 +168,55 @@ h2 {
 }
 
 .card-body .btn {
-    margin-top: auto; /* pushes button to bottom */
+    margin-top: auto;
+    /* pushes button to bottom */
 }
 
 /* <!-- Cart section --> */
 #best-seller .fa-solid {
     font-size: 30px;
-     margin-left: 60px;
+    margin-left: 60px;
 }
 
 /* Ensure the sections stretch fully */
-#best-seller, #trending {
+#best-seller,
+#trending {
     width: 100%;
     padding-left: 0;
     padding-right: 0;
-    overflow-x: hidden; /* Prevents accidental side-scrolling */
+    overflow-x: hidden;
+    /* Prevents accidental side-scrolling */
 }
 
 /* Make the section headings span the full width */
-#best-seller h2, #trending h2 {
+#best-seller h2,
+#trending h2 {
     width: 100%;
     margin: 0;
-    padding: 20px 0; /* Adds some space inside the dark bar */
+    padding: 20px 0;
+    /* Adds some space inside the dark bar */
     text-align: center;
 }
 
 .section .row {
-    padding: 0 15px; 
+    padding: 0 15px;
 }
-a:focus, button:focus {
+
+a:focus,
+button:focus {
     outline: 3px solid #7a9fc2;
     outline-offset: 2px;
 }
 
 /* Mobile Responsiveness Adapted from Bootstrap patterns */
 @media (max-width: 991px) {
+
     /* Make the collapse container full width */
     #navbarNavAltMarkup {
-        width: 100vw; 
-        position: absolute; 
+        width: 100vw;
+        position: absolute;
         left: 0;
-        top: 100%; 
+        top: 100%;
         background-color: var(--primary-color);
     }
 
@@ -176,7 +226,7 @@ a:focus, button:focus {
         width: 100%;
         text-align: center;
         padding: 10px 15px;
-        border-radius: 0; 
+        border-radius: 0;
         box-sizing: border-box;
         transition: background-color 0.3s;
         margin-left: 0;
@@ -192,17 +242,18 @@ a:focus, button:focus {
         padding: 0;
         width: 100%;
     }
+
     #best-seller .card-body {
         min-height: auto;
     }
+
     .card {
         margin-left: auto;
         margin-right: auto;
-        max-width: 90%; 
+        max-width: 90%;
     }
-    
+
     h2.display-6 {
         font-size: 1.5rem;
     }
 }
-
