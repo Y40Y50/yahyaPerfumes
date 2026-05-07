@@ -2,9 +2,17 @@
 # Perfume Website – User-Centric Frontend Project
 
 ## Project Overview
-This project is a **static front-end website** created to present perfume products in a clear, elegant, and user-friendly way.  
-The site showcases a range of perfumes, provides brand information, and allows users to easily explore products and contact the business.
 
+Yahya Perfumes is a modern front-end perfume website designed to provide users with a clear, elegant, and user-friendly browsing experience.
+
+The website provides value to users by:
+- allowing customers to browse perfume products easily
+- displaying clear product information and pricing
+- providing responsive access across desktop, tablet, and mobile devices
+- offering simple and accessible navigation
+- helping users quickly find contact and brand information
+
+The website showcases a range of perfume products, brand content, and contact details in a visually appealing layout.
 The website is built using **HTML5 and CSS3**, with optional use of **Bootstrap** to support responsive layout and accessibility.
 
 ---
@@ -50,12 +58,27 @@ The website presents information clearly and attractively to meet both user and 
 - Readable typography and sufficient spacing
 - Responsive design to ensure usability on all screen sizes
 
-Wireframes and layout planning were used to structure content logically before development.
-Wireframes of desktop:
-https://github.com/Y40Y50/yahyaPerfumes/blob/3b9db33785234be707633b5162b5b1e622a3b361/assets/wireframe%20desktop%20layout.pdf
+## Wireframes
 
-Wireframes of Mobile Mode:
-https://github.com/Y40Y50/yahyaPerfumes/blob/3b9db33785234be707633b5162b5b1e622a3b361/assets/wireframe%20Mobile%20layout%20copy.pdf
+### Homepage Wireframe
+[Homepage Wireframe](assets/images/wireframe-home.png)
+[Homepage Wireframe](assets/images/wireframe-home1.png)
+
+
+### Mobile Wireframe
+[Mobile Wireframe](assets/images/wireframe-mobile%20(1).png)
+[Mobile Wireframe](assets/images/wireframe-mobile%20(2).png)
+
+
+### Layout Planning
+[Layout Planning](assets/images/wireframe-layout_Page3.png)
+[Layout Planning](assets/images/wireframe-layout_Page4.png)
+[Layout Planning](assets/images/wireframe-mobile_Page2.png)
+[Layout Planning](assets/images/wireframe-mobile_Page3.png)
+[Layout Planning](assets/images/wireframe-mobile_Page4.png)
+
+
+
 
 ## Design Process
 
