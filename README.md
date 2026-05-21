@@ -176,24 +176,49 @@ The site contains 4 pages:
 Navigation is consistent across all pages.
 
 ---
-
 ## Testing
 
 ### Manual Testing
 
-| Page | Test | Result |
-|------|------|--------|
-| Home | Navigation links | PASS |
-| Home | Images display | PASS |
-| Home | Responsive layout | PASS |
-| Products | Product cards display | PASS |
-| Products | Add to cart links | PASS |
-| Contact | Form validation | PASS |
-| Contact | Required fields | PASS |
-| Contact | Submit works | PASS |
-| All | Mobile responsive | PASS |
+| Test ID | Page | Feature Tested | Steps Taken | Expected Result | Actual Result | Pass/Fail |
+|----------|------|----------------|-------------|-----------------|---------------|------------|
+| T1 | Home | Navigation links | Clicked each navigation link in navbar | Correct pages open | All pages opened correctly | PASS |
+| T2 | Home | Images display | Opened homepage and checked images | Images display correctly without stretching | Images displayed correctly | PASS |
+| T3 | Home | Responsive layout | Resized browser to mobile/tablet sizes | Layout adjusts correctly | Layout adjusted properly | PASS |
+| T4 | Products | Product cards | Opened products page | Product cards display correctly | Product cards displayed correctly | PASS |
+| T5 | Products | Add to cart links | Clicked add to cart buttons | Cart page opens correctly | Buttons worked correctly | PASS |
+| T6 | Contact | Form validation | Submitted empty form | Validation message appears | Validation worked correctly | PASS |
+| T7 | Contact | Required fields | Left required fields blank | Form prevents submission | Form prevented submission | PASS |
+| T8 | Contact | Submit button | Submitted completed form | Form submits successfully | Form submitted correctly | PASS |
+| T9 | All Pages | Mobile responsive | Tested on mobile screen size | Website remains usable | Website responsive on mobile | PASS |
+
+## Testing Evidence
+
+### Home Page Testing
+The homepage navigation, hero section, and layout were tested to ensure all content displayed correctly and navigation links worked properly.
+
+![Home Page Test](assets/docs/home-test.png)
 
 ---
+
+### Products Page Testing
+Product cards, images, pricing, and add-to-cart buttons were tested to confirm they displayed correctly and linked to the cart page.
+
+![Products Page Test](assets/docs/products-test.png)
+
+---
+
+### Contact Form Testing
+The contact form was tested to ensure all fields displayed correctly and form validation worked as expected.
+
+![Contact Form Test](assets/docs/contact-test.png)
+
+---
+
+### Cart Page Testing
+The cart page was tested to ensure products added correctly and layout remained responsive.
+
+![Cart Page Test](assets/docs/cart-test.png)
 
 ## Bugs Found and Fixed
 
