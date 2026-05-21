@@ -196,29 +196,42 @@ Navigation is consistent across all pages.
 
 ### Home Page Testing
 The homepage navigation, hero section, and layout were tested to ensure all content displayed correctly and navigation links worked properly.
-
-![Home Page Test](assets/docs/home-test.png)
-
+![Home Page Test](assets/docs/home-test.png.png)
 ---
-
 ### Products Page Testing
 Product cards, images, pricing, and add-to-cart buttons were tested to confirm they displayed correctly and linked to the cart page.
-
-![Products Page Test](assets/docs/products-test.png)
-
+![Products Page Test](assets/docs/products-test.png.png)
 ---
-
 ### Contact Form Testing
 The contact form was tested to ensure all fields displayed correctly and form validation worked as expected.
-
-![Contact Form Test](assets/docs/contact-test.png)
-
+![Contact Form Test](assets/docs/contact-test.png.png)
 ---
-
 ### Cart Page Testing
 The cart page was tested to ensure products added correctly and layout remained responsive.
+![Cart Page Test](assets/docs/cart-test.png.png)
 
-![Cart Page Test](assets/docs/cart-test.png)
+## Browser Compatibility Testing
+| Browser | Result |
+|----------|--------|
+| Google Chrome | Working correctly |
+| Microsoft Edge | Working correctly |
+
+### Browser Testing Evidence
+![Edge Browser Test](assets/docs/microsoft-edge-test.png)
+
+---
+## Responsive Testing
+| Device Type | Result |
+|-------------|--------|
+| Mobile | Layout responsive |
+| Tablet | Layout responsive |
+| Desktop | Layout responsive |
+
+### Responsive Testing Evidence
+![Mobile Mode Test](assets/docs/mobile-view.png)
+![Tablet Mode Test](assets/docs/tablet-mode-test.png)
+![Desktop Mode Test](assets/docs/home-page.png)
+
 
 ## Bugs Found and Fixed
 
